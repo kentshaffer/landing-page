@@ -1,0 +1,45 @@
+.profilePhoto {
+  border-radius: 50%;
+  height: 10vh;
+}
+
+.post-card-div {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 5vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.post-title-container {
+  display: flex;
+  background-color: bisque;
+  border-radius: 5vh 5vh 0 0;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 1vw;
+}
+
+.profilePhoto {
+  margin-right: 2vw;
+}
+
+.userName {
+  margin-right: 2vw;
+}
+
+.post-text {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 2vh;
+}
+
+.comment-btn {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 3vh;
+  margin-top: 5vh;
+}
