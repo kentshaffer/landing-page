@@ -1,6 +1,29 @@
+.profileHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.backgroundPhoto {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  padding-bottom: 15vh;
+}
+
 .profilePhoto {
   border-radius: 50%;
+  height: 30vh;
+  margin-right: 2vw;
+  z-index: 1;
+  position: absolute;
+  margin-left: 4vw;
+}
+
+.avatar {
+  border-radius: 50%;
   height: 10vh;
+  margin-right: 2vw;
 }
 
 .post-card-div {
@@ -22,9 +45,6 @@
   padding-left: 1vw;
 }
 
-.profilePhoto {
-  margin-right: 2vw;
-}
 
 .userName {
   margin-right: 2vw;
@@ -43,3 +63,4 @@
   margin-bottom: 3vh;
   margin-top: 5vh;
 }
+
